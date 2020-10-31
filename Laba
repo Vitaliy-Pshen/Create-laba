@@ -19,4 +19,8 @@ while True:
    print("Error")
  if result is not None:
    print ("Result:",result)
+ ex = input("Exit(yes-no):")
+ if ex == "yes":
+     print("Goodbay")
+     break
 
