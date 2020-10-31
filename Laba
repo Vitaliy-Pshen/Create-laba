@@ -19,3 +19,4 @@ while True:
    print("Error")
  if result is not None:
    print ("Result:",result)
+
