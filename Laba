@@ -1,21 +1,21 @@
 print ("Hellow World")
 
 while True:
- x = float(input("First number ")
- y = float(imput("Second number")
- operation = imput("Enter operation")
+ x = float(input("First number "))
+ y = float(input("Second number"))
+ operation = input("Enter operation")
 
  result = None
 
  if operation =="+":
    result = x + y 
- elif operatin =="-":
+ elif operation =="-":
    result = x - y
  elif operation =="*":
    result = x * y
  elif oeration =="/":
    result = x ** y 
- eles : 
+ else: 
    print("Error")
  if result is not None:
    print ("Result:",result)
