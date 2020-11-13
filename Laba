@@ -29,9 +29,14 @@ while True:
 while True:
     str = input("Слово веди!!!:")
     print(str[::-1])
-    
+     
 подвоэння 
 
 while True:
     for i in input(" Веди словце:"):
         print(i * 4, end='')
+        ex = input("Exit(yes-no):")
+        if  ex == "yes":
+            print ("Goodbay")
+            break
+ 
