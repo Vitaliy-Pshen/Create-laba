@@ -31,12 +31,15 @@ while True:
     print(str[::-1])
      
 подвоэння 
-
-while True:
-    for i in input(" Веди словце:"):
-        print(i * 4, end='')
-        ex = input("Exit(yes-no):")
-        if  ex == "yes":
-            print ("Goodbay")
-            break
+    
+    while True:
+    a = str(input())
+    res = ""
+    for c in a:
+        res += c*2
+    print(res)
+    ex = input("Exit(yes-no):")
+    if ex == "yes":
+        print("Goodbay")
+        break
  
