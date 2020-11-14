@@ -49,7 +49,7 @@ while True:
  
  Шифратор
  
- while True:
+while True:
     alpha = ' abcdefghijklmnopqrstuvwxyz'
     n = int(input())
     s = input().strip()
