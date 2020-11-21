@@ -57,3 +57,11 @@ while True:
     for c in s:
         res += alpha[(alpha.index(c) + n) % len(alpha)]
     print('Result: "' + res + '"')
+
+
+словарь 
+
+
+alpha = ' ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
+
+
