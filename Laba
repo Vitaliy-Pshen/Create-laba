@@ -1,3 +1,4 @@
+Laba 1
 print ("Hellow World")
 
 while True:
@@ -59,6 +60,7 @@ while True:
     print('Result: "' + res + '"')
 
 
+Laba 2
 словарь 
 
 print ("Привіт.")
