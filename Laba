@@ -1,5 +1,8 @@
 Laba 1
-print ("Hellow World")
+
+print ("Hellow Laba")
+
+калькулятор
 
 while True:
  x = float(input("First number "))
@@ -60,8 +63,7 @@ while True:
     print('Result: "' + res + '"')
 
 
-Laba 2
-словарь 
+Laba 2 
 
 print ("Привіт.")
 print ("___________________________________________________")
