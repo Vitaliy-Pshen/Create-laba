@@ -5,28 +5,33 @@ print ("Hellow \n :3")
 калькулятор
 
 while True:
- x = float(input("First number "))
- y = float(input("Second number"))
- operation = input("Enter operation")
+    what = input("що робимо? (+, -): ")
 
- result = None
+    a = float( input("впиши цифру:") )
+    b = float( input("ще одну:") )
 
- if operation =="+":
-   result = x + y 
- elif operation =="-":
-   result = x - y
- elif operation =="*":
-   result = x * y
- elif oeration =="/":
-   result = x ** y 
- else: 
-   print("Error")
- if result is not None:
-   print ("Result:",result)
- ex = input("Exit(yes-no):")
- if ex == "yes":
-     print("Goodbay")
-     break
+    if what == "+":
+        c = a + b
+        print ("Реультат: " + str(c) )
+    elif what == "-":
+        c = a - b
+        print ("Реультат: " + str(c))
+    elif what == "*":
+        c = a * b
+        print ("Реультат: " + str(c))
+    elif what == "/":
+        c = a / b
+        print ("Реультат: " + str(c))
+    elif what == "**":
+        c = a ** b
+        print ("Реультат: " + str(c))
+    else:
+        print("Error")
+    ex = input("Вийти?(yes-no):")
+    if ex == "yes":
+        print("До побачення \n :D ")
+        break
+
 
 слово на оборот 
 
