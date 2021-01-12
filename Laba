@@ -26,9 +26,9 @@ while True:
         c = a ** b
         print ("Реультат: " + str(c))
     else:
-        print("Error")
-    ex = input("Вийти?(yes-no):")
-    if ex == "yes":
+        print("Помилка")
+    ex = input("Вийти?(так-ні):")
+    if ex == "так":
         print("До побачення \n :D ")
         break
 
