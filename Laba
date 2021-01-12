@@ -5,6 +5,7 @@ print ("Hellow \n :3")
 калькулятор
 
 while True:
+    import math
     what = input("що робимо? (+, -): ")
 
     a = float( input("впиши цифру:") )
@@ -25,12 +26,16 @@ while True:
     elif what == "**":
         c = a ** b
         print ("Реультат: " + str(c))
+    elif what == "P":
+        print ( math.pi )
+        
     else:
         print("Помилка")
     ex = input("Вийти?(так-ні):")
     if ex == "так":
         print("До побачення \n :D ")
         break
+
 
 
 слово на оборот 
