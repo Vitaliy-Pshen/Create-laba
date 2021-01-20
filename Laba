@@ -50,15 +50,15 @@ while True:
      
 подвоэння 
     
-    while True:
-    a = str(input())
+while True:
+    a = str(input("Веди сюда слово:"))
     res = ""
     for c in a:
         res += c*2
     print(res)
     ex = input("Exit(yes-no):")
     if ex == "yes":
-        print("Goodbay")
+        print("Пака :D")
         break
  
  Шифратор
