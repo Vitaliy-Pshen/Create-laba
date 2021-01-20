@@ -65,7 +65,7 @@ while True:
  
 alphabet = "abcdefghijklmnopqrstuvwocyzabcdefghijklanopqrstuvwxyz"
 encrypt = input("Введіть своє повідомлення(на Англ. мові): ")
-key = int(input("Введіть ключ (number from 1-25): "))
+key = int(input("Введіть ключ (число від 1-25): "))
 encrypt = encrypt.lower()
 encrypted = ""
 for letter in encrypt:
