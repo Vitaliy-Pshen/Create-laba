@@ -85,7 +85,6 @@ print ("___________________________________________________")
 
 enter = ""
 list_a = []
-print(list_a)
 while enter != "exit":
     enter = str(input("pleas choose A or B: "))
     alphabet = ("ABCDEFGHIJKLMNOPRSTUVWXYZabcdefghijklmnoprstuvwxyzАБВГҐДЕЄЖЗИІЇЙКЛМНОПРСТУФХЦЧШЩЬЮЯабвгґдеєжзиіїйклмнопрстуфхцчшщьюя")
